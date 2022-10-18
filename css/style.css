@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 67px 75px 0px 132px;
+    padding: 54px 75px 0px 132px;
 }
 .nav-ul {
     display: flex;
@@ -25,7 +25,7 @@
 .left {
     display: flex;
     flex-direction: column;
-    margin-top: 285px;
+    margin-top: 143px;
     margin-left: 132px;
 }
 .h1 {
@@ -64,4 +64,14 @@
 .button img {
     padding-left: 43px;
     padding-right: 31px;
+}
+/* right side */
+.right {
+    margin-top: 131px;
+    margin-left: 305px;
+}
+.bg-img {
+    background-image: url("../img/right-img.png");
+    width: 801px;
+    height: 526px;
 }
