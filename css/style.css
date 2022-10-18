@@ -1,0 +1,16 @@
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 67px 75px 0px 132px;
+}
+.nav-ul {
+    display: flex;
+    width: 586px;
+    justify-content: space-between;
+}
+.nav-li {
+    font-size: 20px;
+    font-family: Lato, monospace;
+}
