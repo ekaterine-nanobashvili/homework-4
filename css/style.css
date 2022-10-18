@@ -13,4 +13,55 @@
 .nav-li {
     font-size: 20px;
     font-family: Lato, monospace;
+    color: #3D37F1;
+}
+/* first section */
+/* left side */
+.section1 {
+    width: 1708px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 285px;
+    margin-left: 132px;
+}
+.h1 {
+    width: 591px;
+    height: 203px;
+    margin-bottom: 42px;
+}
+.h1 h1 {
+    font-size: 78px;
+    font-family: Lato, monospace;
+    color: #534D4D;
+}
+.h6 {
+    width: 602px;
+    height: 103px;
+    margin-bottom: 84px;
+}
+.h6 h6 {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    color: #534D4D;
+}
+.button {
+    width: 264px;
+    height: 77px;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+}
+.button span {
+    font-size: 23px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+}
+.button img {
+    padding-left: 43px;
+    padding-right: 31px;
 }
