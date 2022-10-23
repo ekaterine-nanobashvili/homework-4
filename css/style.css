@@ -1,5 +1,5 @@
 /* navbar */
-.navbar {
+.navbar-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -74,4 +74,123 @@
     background-image: url("../img/right-img.png");
     width: 801px;
     height: 526px;
+}
+/* section 2 */
+.section2 {
+    background-color: #FBFCFD;
+}
+.description {
+    width: 712px;
+    margin: auto;
+    padding-top: 78px;
+}
+.description h1 {
+    font-family: Lato, monospace;
+    font-weight: bold;
+    color: #3D37F1;
+    font-size: 20px;
+    text-align: center;
+}
+.description h2 {
+    font-family: Lato, monospace;
+    color: #5A5454;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 17px;
+}
+.description p {
+    color: #747474;
+    font-family: Roboto, monospace;
+    font-size: 18px;
+    text-align: center;
+    text-indent: 50px;
+    margin-top: 21px;
+}
+.box {
+    width: 370px;
+    height: 451px;
+    margin-bottom: 60px;
+}
+.box-flex {
+    width: 1169px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 67px auto;
+}
+ .box:first-child {
+    background-color: #FBBA77;
+}
+.box:nth-child(2) {
+    background-color: #41EAE3;
+}
+.box:nth-child(3) {
+    background-color: #69529F;
+}
+.box:nth-child(4) {
+    background-color: #4386D2;
+}
+.box:nth-child(5) {
+    background-color: #A5A2F6;
+}
+.box:last-child {
+    background: #FF8088;
+}
+.box-content {
+    width: 328px;
+    height: 315px;
+    margin: 88px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button2-f {
+    width: 131px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.button2 {
+    width: 131px;
+    height: 45px;
+    border-radius: 23px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+}
+.span {
+    margin: auto;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto, monospace;
+}
+.span-f {
+    margin: auto;
+    color: #4B647E;
+    font-size: 15px;
+    font-family: Roboto, monospace;
+}
+.box-content img {
+    width: 100px;
+    padding-bottom: 57px;
+}
+.box-content h2 {
+    padding-bottom: 13px;
+    color: #FFFFFF;
+    font-family: Lato, monospace;
+    font-size: 22px;
+}
+.box-content p {
+    padding-bottom: 11px;
+    height: 62px;
+    text-indent: 5px;
+    color: #FFFFFF;
+    font-family: Roboto, monospace;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
 }
